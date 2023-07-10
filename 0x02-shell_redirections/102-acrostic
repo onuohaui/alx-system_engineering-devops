@@ -1,2 +1,2 @@
 #!/bin/bash
-while read line; do echo -n "${line:0:1}"; done < "${1}" ; echo
+echo -e "Hello\nOpenAI\nPoem\nExample" | ./decode_acrostic.sh
