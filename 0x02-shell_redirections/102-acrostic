@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "Hello\nOpenAI\nPoem\nExample" | ./decode_acrostic.sh
+cut -c 1 | paste -s -d ''
